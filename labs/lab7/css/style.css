@@ -1,0 +1,35 @@
+/*
+    Author:         William Roe
+    Date:           07-13-2023
+    Last revised:   07-13-2023
+    Assignment:     Lab 7
+    Purpose:        Styling for Lab 7
+*/
+header {
+    background-image: url("../images/header.jpg");
+    background-color: #cccccc;
+    color: white;
+}
+body{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px 15px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-right-color: black;
+    border-left-color: black;
+}
+
+container {
+    font-family: sans-serif;
+}
+
+container > h1 {
+    text-align: right;
+}
+
+container > row > img {
+    margin: 0 20px;
+}
