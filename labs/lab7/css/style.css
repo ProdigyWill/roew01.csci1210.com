@@ -19,17 +19,30 @@ body{
     border-color: white;
     border-style: solid;
     border-right-color: black;
-    border-left-color: black;
 }
 
-container {
-    font-family: sans-serif;
-}
-
-container > h1 {
+.footer {
+    padding-right: 20px;
+    width: 780px;
+    height: 25px;
+    background-color: rgb(46, 45, 45);
+    color: white;
     text-align: right;
 }
 
-container > row > img {
+.blockquote {
+    position: relative;
+    left: 220px;
+}
+
+.container {
+    font-family: sans-serif;
+}
+
+.container > h1 {
+    text-align: right;
+}
+
+.container > .row > img {
     margin: 0 20px;
 }
