@@ -1,0 +1,124 @@
+/*
+	Author:			William Roe
+	Assignment:		Lab 9
+	Date:			7/25/2023
+	Purpose:		Choosing a color scheme/Using float to
+					position images/Learning a little about
+					Linux
+*/
+
+body {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: rgba(37, 36, 36, 1);
+	color: rgba(190, 189, 187, 1);
+}
+
+header, nav, article, footer {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	height: 190px;
+	background-color: rgba(170, 101, 57, 1);
+	color: white;
+	padding: 25px 0;
+}
+
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: rgba(170, 101, 57, 1);
+	border-bottom: 1px solid rgba(37, 36, 36, 1);
+	margin-top: 0;
+}
+
+nav a {
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color: rgba(170, 128, 57, 1);
+	color: rgba(85, 54, 0, 1);
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color: rgba(85, 54, 0, 1);
+	color: rgba(170, 128, 57, 1);
+	border: 1px solid rgba(37, 36, 36, 1);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(212, 173, 106, 1);
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+footer {
+	clear: both;
+	line-height: 2em;
+	margin: 0 auto;
+	background-color: rgba( 81,  0, 11,1);
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+}
+
+h1, h2 {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	border-bottom: 2px solid rgba(212, 173, 106, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+header h1, header h2 {
+	border-width: 0;
+	color: rgba(255, 255, 255, 1);
+}
+
+article {
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+	padding: 15px;
+}
+
+
+/* Enter your rules above this one */
+.cite {
+	display: block;
+	width: 400px;
+	float: right;
+	font-size: .8em;
+	font-style: italic;
+	margin: 10px 100px 20px 0;
+}
+
+
+
